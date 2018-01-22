@@ -1,0 +1,17 @@
+{
+  "name": "tsnode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "supervisor -w build ./build/main.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.0-alpha.1"
+  }
+}
